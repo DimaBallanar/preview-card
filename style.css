@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Mulish;
+    src: url(/fonts/Mulish-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Poppins';
+}
+
+h2 {
+    font-family: 'Mulish';
+}
+
+body {
+    background: #f5f5f5;
+    ;
+    width: 1440px;
+    height: 2895px;
+}
+
+.oval {
+    display: inline-block;
+    width: 240px;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(#89c13e, #599c02);
+    background-color: #6fad1d;
+    border-radius: 35px;
+}
+
+
